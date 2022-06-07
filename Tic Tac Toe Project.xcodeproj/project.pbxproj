@@ -13,6 +13,8 @@
 		E3AB75C9284ED905007ED467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AB75C8284ED905007ED467 /* Preview Assets.xcassets */; };
 		E3AB75D4284ED905007ED467 /* Tic_Tac_Toe_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AB75D3284ED905007ED467 /* Tic_Tac_Toe_ProjectTests.swift */; };
 		E3AB75DF284ED905007ED467 /* Tic_Tac_Toe_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AB75DE284ED905007ED467 /* Tic_Tac_Toe_ProjectUITests.swift */; };
+		E3AB75F0284EDCAE007ED467 /* PartOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AB75EF284EDCAE007ED467 /* PartOneModel.swift */; };
+		E3AB75F5284EDCD0007ED467 /* PartTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AB75F4284EDCD0007ED467 /* PartTwoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		E3AB75DA284ED905007ED467 /* Tic Tac Toe ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac Toe ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AB75DE284ED905007ED467 /* Tic_Tac_Toe_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_ProjectUITests.swift; sourceTree = "<group>"; };
 		E3AB75E0284ED905007ED467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AB75EF284EDCAE007ED467 /* PartOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOneModel.swift; sourceTree = "<group>"; };
+		E3AB75F4284EDCD0007ED467 /* PartTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTwoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				E3AB75C1284ED8FA007ED467 /* Tic_Tac_Toe_ProjectApp.swift */,
 				E3AB75C3284ED8FA007ED467 /* ContentView.swift */,
+				E3AB75EF284EDCAE007ED467 /* PartOneModel.swift */,
+				E3AB75F4284EDCD0007ED467 /* PartTwoViewModel.swift */,
 				E3AB75C5284ED905007ED467 /* Assets.xcassets */,
 				E3AB75CA284ED905007ED467 /* Info.plist */,
 				E3AB75C7284ED905007ED467 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				E3AB75C4284ED8FA007ED467 /* ContentView.swift in Sources */,
 				E3AB75C2284ED8FA007ED467 /* Tic_Tac_Toe_ProjectApp.swift in Sources */,
+				E3AB75F5284EDCD0007ED467 /* PartTwoViewModel.swift in Sources */,
+				E3AB75F0284EDCAE007ED467 /* PartOneModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

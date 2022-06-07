@@ -1,17 +1,17 @@
 //
-//  Tic_Tac_Toe_ProjectApp.swift
-//  Tic Tac Toe Project
+//  Tic_Tac_ToeApp.swift
+//  Tic Tac Toe
 //
-//  Created by Amrita Pal on 6/6/22.
+//  Created by Amrita Pal on 7/22/21.
 //
 
 import SwiftUI
 
 @main
-struct Tic_Tac_Toe_ProjectApp: App {
+struct Tic_Tac_ToeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: TicTacToeViewModel())
         }
     }
 }
